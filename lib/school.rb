@@ -17,7 +17,7 @@ class School
     if ROSTER.key?(grade)
       ROSTER[grade] << name
     else
-      ROSTER[grade] = [name]
+      ROSTER[grade] = name
     end
     ROSTER
   end
