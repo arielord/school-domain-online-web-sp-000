@@ -23,7 +23,7 @@ class School
   end
   
   def grade(grade_level)
-    ROSTER.key?(grade_level) ? ROSTER[grade_level] : nil
+    ROSTER[grade_level]
   end
   
   def sort
